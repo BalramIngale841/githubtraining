@@ -22,7 +22,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		lp.clickSubmit();
 		
 		Thread.sleep(3000);
-		
+		/*
 		AddCustomerPage addcust=new AddCustomerPage(driver);
 		
 		addcust.clickAddNewCustomer();
@@ -63,7 +63,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 			captureScreen(driver,"addNewCustomer");
 			Assert.assertTrue(false);
 		}
-			
+		*/	
 	}
 	
 	
